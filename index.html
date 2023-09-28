@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+	<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&amp;family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/white-alterra.ico" type="image/x-icon">
+	<title>Meu Portifolio</title>
+</head>
+<body onload="loading()">
+    <div class="box-load">
+        <div class="pre"></div>
+    </div>
+	<div class="container">
+		<header>
+			<div class="left-header">
+				<img src="img/white-alterra.png" alt="Logo">
+				<a href=""><h1>Portifólio</h1></a>
+			</div>
+			<nav class="right-header">
+                <div class="a1"><a class="hover1" href="#scroll1">Introdução</a></div>
+                <div class="a2"><a class="hover2" href="#scroll2">Sobre mim</a></div>
+                <div class="a3"><a class="hover3" href="#scroll3">Projetos</a></div>
+                <div class="a4"><a class="hover4" href="#scroll4">Escolaridade</a></div>
+			</nav>
+		</header>
+		<main>
+            <!-- SEÇÃO 1 -->
+			<section id="scroll1" class="section-1">
+				<div class="left-section-1">
+					<h2>Seja bem vindo</h2>
+					<h1>Meu Portifólio de Programação</h1>
+					<p>Aqui neste portifólio, você irá me conhecer melhor e conhecer um pouco das minhas habilidades, falarei um pouco sobre meus projetos até o momento, e onde eu me formei e estudei, espero que goste.</p>
+					<button onclick="pagina('scroll2')">Iniciar Trajeto</button>
+				</div>
+				<div class="right-section-1">
+					<p>.</p>
+				</div>
+			</section>
+            <!-- SEÇÃO 2 -->
+			<section id="scroll2" class="section-2">
+				<div class="left-section-2">
+					<h1>Sobre mim</h1>
+					<p>Meu nome é <strong style="text-decoration: underline;">Bruno de Queiróz</strong>, sou um programador iniciante na área, e estou na tentativa de conseguir meu primeiro estágio e começar a finalment a trabalhar com programação, mas tenho interesse majoritariamente no Back-End.</p><br>
+					<p>tenho experiências com as seguintes linguagems:</p>
+					<div class="experiencias">
+						<img src="img/csharp.png" alt="C#">
+						<img src="img/js2.png" alt="JavaScript">
+						<img src="img/html2.png" alt="HTML5">
+						<img src="img/css1.png" alt="CSS3">
+						<img src="img/sql.png" alt="SQL">
+					</div>
+                    <button onclick="pagina('scroll3')">Próximo</button>
+				</div>
+				<div class="right-section-2">
+                    <img title="cucarrox" class="svg" src="img/discord-fill.svg" alt="">
+                    <a class="svg" target="_blank" href="https://github.com/cucarrox"><img src="img/github-fill.svg" alt=""></a>
+                    <a class="svg" target="_blank" href="https://www.linkedin.com/in/bruno-queiróz-962635265/"><img src="img/linkedin-box-fill.svg" alt=""></a>
+					<img class="foto" src="img/me.jpeg" alt="Minha foto">
+				</div>
+			</section>
+            <!-- SEÇÃO 3 -->
+			<section id="scroll3" class="section-3">
+                <h1>Meu Projetos</h1>
+                <div class="section-3-container">
+                    <div class="left-section-3">
+                        <details class="projeto1">
+                            <summary>Projeto 1 - Alterra</summary>
+                            <div class="details-projeto1">
+                                <a class="project-link-1" target="_blank" href="https://github.com/cucarrox/Alterra-recruitment"><img src="img/alterra-logo.png" alt=""></a>
+                            </div>
+                        </details>
+                        <details class="projeto1">
+                            <summary>Projeto 2 - Pokedex</summary>
+                            <div class="details-projeto1">
+                                <a class="project-link-1" target="_blank" href=""><img style="margin-top: 15px;" src="img/pokedex.png" alt=""></a>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="right-section-3">
+
+                    </div>
+                </div>
+			</section>
+            <!-- SEÇÃO 4 -->
+			<section id="scroll4" class="section-4">
+
+			</section>
+		</main>
+		<footer>
+
+		</footer>
+	</div>
+    <script>
+        function pagina(scrollId) {
+            window.location.href = '#' + scrollId;
+        }
+        function loading() {
+            document.getElementsByClassName('box-load')[0].style.display = "none"
+            document.getElementsByClassName('container')[0].style.display = "flex"
+        }
+    </script>
+</body>
+</html>
