@@ -1,0 +1,39 @@
+/*===== SECTION 4 =====*/
+.section-4 {
+    color: white;
+    width: 100%;
+    height: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 16, 65);
+    box-shadow: inset 0px -1px 10px 1px black;
+    text-align: justify;
+}
+.section-4 h1 {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+.section-4-container {
+    width: 90%;
+    display: flex;
+}
+.section-4-container img {
+    margin-top: 30px;
+    width: 150px;
+}
+
+/*-- TEXTOS E STATUS --*/
+.for1, .for2, .for3, .for4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.for1 p, .for2 p, .for3 p, .for4 p {
+    align-self: self-start;
+}
+.for1 h2, .for2 h2, .for3 h2, .for4 h2 {
+    align-self: self-start;
+}

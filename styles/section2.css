@@ -1,0 +1,77 @@
+/*===== SECTION 2 =====*/
+.section-2 {
+    color: white;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 16, 65);
+    box-shadow: inset 0px -1px 10px 1px black;
+}
+
+/*--- LEFT SECTION 2 ---*/
+.left-section-2 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-section-2 h1 {
+    align-self: flex-start;
+    font-size: 35px;
+}
+.left-section-2 p {
+    font-size: 18px;
+}
+
+/*- LOGOS DAS LINGUAGENS -*/
+.experiencias {
+    display: flex;
+    gap: 20px;
+}
+.experiencias img {
+    margin-top: 20px;
+    width: 80px;
+}
+
+/*- BOTAO PROXIMO -*/
+.left-section-2 button {
+    margin-top: 50px;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.left-section-2 button:hover {
+    background-color: white;
+    color: black;
+    transition: ease 0.3s;
+}
+
+/*--- RIGHT SECTION 2 ---*/
+.right-section-2 {
+    width: 40%;
+    display: flex;
+    margin-left: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.foto {
+    width: 420px;
+    height: 420px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+/*- LINKS -*/
+.svg {
+    width: 60px;
+    margin: 10px;
+    align-self: last baseline;
+}
